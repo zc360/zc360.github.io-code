@@ -2,7 +2,7 @@
 draft: false
 date: 2024-02-08 
 categories:
-  - Gui
+  - 鬼
 ---
 
 # 9班鬼

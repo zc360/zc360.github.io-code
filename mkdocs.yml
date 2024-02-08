@@ -8,8 +8,30 @@ theme:
     - header.autohide #自动消失导航
     - navigation.top #回到顶部按钮
     - navigation.sections #导航去掉拉开菜单
+    - navigation.indexes #即时加载
   icon:
    repo: fontawesome/brands/github #设置右上角仓库图标为GitHubloge
+  palette: #配色设置
+    - scheme: default # 设置黑暗模式
+      accent: orange #按钮颜色设置
+      primary: blue #主题色
+      toggle:
+        icon: material/brightness-7 
+        name: 设置为黑暗模式
+    - scheme: slate # 设置白天模式
+      accent: orange #按钮颜色设置
+      primary: blue #主题色
+      toggle:
+        icon: material/brightness-4
+        name: 设置为白天模式
+
+nav: #顶部导航设置
+  - 主页:
+    - index.md
+  - 快速访问:
+    - 文档/index.md
+  - 内容:
+    - blog/index.md
 
 extra: #cookie弹窗
   consent:
@@ -29,4 +51,4 @@ copyright: > #页脚版权说明
   警告：内容均为虚构，图片为ai自动生成，如有雷同，纯属巧合，不要对号入坐！ © 2024 zc – 
   <a href="#__consent">Cookie设置</a>
 
-repo_url: https://github.com/zc360/zc360.github.io #GitHub仓库设置
+repo_url: https://github.com/zc360/zc360.github.io-code #GitHub仓库设置
